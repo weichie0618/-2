@@ -1,0 +1,93 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.aa{
+    width:600px;
+    height:300px;
+}
+.i{
+    display:flex;
+
+}
+.id{
+    display:block;
+    width:50%;
+    flex:1;
+    border-right:1px solid black;
+}
+.d{
+    display:block;
+    width:50%;
+    flex:1;
+}
+.idd li{
+    list-style-type:none;
+    margin:10px;
+    padding:5px;
+    
+}
+.id li input:focus{
+    border-radius:20px;
+    text-align:center;
+    transition:1s;
+    box-shadow:3px 3px  black;
+
+}
+.dd{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    margin-left:80px;
+}
+.dd input{
+    border-radius:20px;
+    outline:none;
+    margin:5px;
+    width:150px;
+    text-align:center;
+    
+
+}
+.iddd li{
+    display:inline;
+    position:relative;
+    left:20px;
+    
+
+}
+.ddd{
+    display:flex;
+    justify-content:center;
+    margin:5px;
+}
+.idddd{
+    margin-left:60px;
+    
+}
+.idddd input{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    border-radius:10px;
+    cursor:pointer;
+}
+.idddd input:hover{
+    box-shadow:3px 3px black;
+    background-color:rgb(255, 196, 196);
+    color:rgb(15, 11, 11);
+    
+}
+.dddd {
+    margin-left:80px;
+    margin-top:10px;
+    
+}
+.dddd button{
+    cursor:pointer;
+    border-radius:5px;
+    background-color:aquamarine;
+    color:blueviolet;
+    font-weight:bolder;
+}
